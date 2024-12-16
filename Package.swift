@@ -32,14 +32,14 @@ let package = Package(
         .target(
             name: "FFmpegKit",
             dependencies: [
-                "MoltenVK",
-                "libshaderc_combined",
+//                "MoltenVK",
+//                "libshaderc_combined",
                 "lcms2",
                 "libdav1d",
-                "libplacebo",
+//                "libplacebo",
                 .target(name: "libzvbi", condition: .when(platforms: [.macOS, .iOS, .tvOS, .visionOS])),
                 "libsrt",
-                "libfreetype", "libfribidi", "libharfbuzz", "libass",
+//                "libfreetype", "libfribidi", "libharfbuzz", "libass",
                 "libfontconfig",
                 .target(name: "libbluray", condition: .when(platforms: [.macOS])),
                 "gmp", "nettle", "hogweed", "gnutls",
