@@ -35,7 +35,7 @@ let package = Package(
 //                "MoltenVK",
 //                "libshaderc_combined",
                 "lcms2",
-//                "libdav1d",
+                "libdav1d",
 //                "libplacebo",
                 .target(name: "libzvbi", condition: .when(platforms: [.macOS, .iOS, .tvOS, .visionOS])),
 //                "libsrt",
